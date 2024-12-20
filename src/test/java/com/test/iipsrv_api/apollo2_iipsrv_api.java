@@ -26,8 +26,5 @@ public class apollo2_iipsrv_api {
 	            System.out.println("API request to the apollo2 iipsrv failed. Status code: " + statusCode1);
 	        }
 	        Assert.assertEquals(statusCode1, 200, "API request to the apollo2 iipsrv failed");
-	        
 	    }	
-	
-
 }

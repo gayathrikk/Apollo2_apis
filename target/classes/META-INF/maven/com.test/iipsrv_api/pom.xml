@@ -65,6 +65,8 @@
       <artifactId>xml-apis</artifactId>
       <version>2.0.2</version>
     </dependency>
+    
+    
     <!-- https://mvnrepository.com/artifact/com.github.fge/json-schema-validator -->
     <dependency>
       <groupId>io.rest-assured</groupId>
@@ -72,6 +74,7 @@
       <version>5.1.1</version> <!-- Update to the latest version -->
       <scope>test</scope>
     </dependency>
+    
   </dependencies>
 
 <build>
@@ -89,7 +92,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
           <configuration>
-            <test>com.test.iipsrv_api.apollo3_iipsrv_api</test>
+            <test>com.test.iipsrv_api.apis</test>
           </configuration>
         </plugin>
       </plugins>
